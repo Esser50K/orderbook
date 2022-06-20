@@ -93,7 +93,7 @@ The performance of constructing a sorted orderbook (using live data from Coinbas
 | C Library      | 0.00021767616271 |
 | Python Library | 0.00043988227844 |
 
-The performance of constructing sorted dictionaries using the same libraries, as well as the cost of building unsorted, python dictionaies for dictionaries of random floating point data:
+The performance of constructing sorted dictionaries using the same libraries, as well as the cost of building unsorted, python dictionaries for dictionaries of random floating point data:
 
 
 | Library        | Number of Keys | Time, in seconds |
@@ -113,3 +113,4 @@ This represents a roughly 2x speedup compared to a pure python implementation, a
 
 
 For other performance metrics, run `performance_test.py` as well as the other performance tests in [`perf/`](perf/)
+
